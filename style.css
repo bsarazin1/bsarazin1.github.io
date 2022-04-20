@@ -9,9 +9,9 @@ div.navbar-brand {
 #main_title{
 	background-color: #223E37;
 }
-#main_image {
-    height:135px;
-    width: 170px;
+#mainimage {
+    height:40%;
+    width: 40%;
 }
 
 a.navbar-item:hover{
