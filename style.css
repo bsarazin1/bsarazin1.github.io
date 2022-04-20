@@ -1,14 +1,19 @@
 
 body {
-    background-color: #d9dbdb;
+    background-color: #1DD0A3;
     /* padding:.5rem */
 }
 div.navbar-brand {
-    background-color: #698787;
+    background-color: #25997C;
 }
 #main_title{
-	background-color: rgb(75, 78, 82);
+	background-color: #223E37;
 }
+#main_image {
+    height:135px;
+    width: 170px;
+}
+
 a.navbar-item:hover{
 	background-color: aliceblue;
 	transition:.025s;
@@ -17,6 +22,9 @@ section{
     text-align: center;
     font-size: larger;
     font: bold;
+}
+section.section{
+    background-color: #25997C;
 }
 
 #orderform{
@@ -28,9 +36,12 @@ section{
 
 footer.footer{
     margin-top:4rem;
-
 }
 
+#frig{
+    width: 10%;
+    height: 10%;
+}
 h1.title{
 	color:"#004E67";
 }
