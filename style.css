@@ -108,9 +108,7 @@ footer p{
 		width: 30%;
 		height: 30%;
 	}
-	#jobs{
-		margin:0 11rem;
-	}
+
 	#about{
 		margin-top:6rem;
 	}
@@ -118,6 +116,6 @@ footer p{
 		margin-top:10rem;
 	}
 	#jobs{
-		margin-top:6rem;
+		margin:6rem;
 	}
 }
