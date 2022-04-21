@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body {
     background-color: #1DD0A3;
+	font-family: 'Poppins', sans-serif;
     /* padding:.5rem */
 }
 div.navbar-brand {
@@ -26,20 +28,18 @@ section{
 }
 section.section{
     background-color: #25997C;
-    color: rgb(37, 35, 35);
+	color: rgb(37, 35, 35);
+	font-family: 'Poppins', sans-serif;
 }
-
-#orderform{
-    padding:1rem;
-}
-#orderform label{
-    margin-top: 2rem;
-}
-
 footer.footer{
     margin-top:4rem;
 }
-
+#about{
+	margin: 0rem 1rem;
+}
+#jobs{
+	margin:0rem 1rem;
+}
 img.frig{
     width: 70%;
     height: 70%;
@@ -62,26 +62,15 @@ footer p{
 
 	/* 3.  Switch to tablet mode on your browser.  Add any necessary css
 	for tablet-width here. */
-	#orderform{
-		padding:.5rem;
-		margin:0rem 5rem;
-	}
-	#orderform label{
-		margin-top: 2rem;
-	}
-	#spices{
-		width: 50%;
-		height: 50%;
-	}
-	#frig{
+	img.frig{
 		width: 70%;
 		height: 70%;
 	}
 	#about{
-		margin: 0rem 7rem;
+		margin: 2rem 7rem;
 	}
 	#jobs{
-		margin-top: 5rem;
+		margin: 2rem 7rem;
 	}
 }
 
@@ -91,29 +80,18 @@ footer p{
 
 	/* 4. Turn off responsive design mode on your desktop.  Add any css
 	here to make your page look good on your desktop. */
-	#orderform{
-		padding:.5rem;
-		margin:0rem 22rem;
-	}
-	#orderform label{
-		margin-top: 2rem;
-	}
-	#spices{
-		width: 30%;
-		height: 30%;
-	}
-	#frig{
+	img.frig{
 		width: 40%;
 		height: 40%;
 	}
 	#about{
-		margin: 0rem 11rem;
+		margin: 2rem 11rem;
 	}
 	footer.footer{
 		margin-top:10rem;
 	}
 	#jobs{
-		margin-top:2rem;
+		margin:2rem 11rem;
 	}
 }
 
@@ -126,20 +104,12 @@ footer p{
 	for ultra-wide screens, but as more and more internet users
 	have larger screens, developers are beginning to style websites
 	for those users. Add that css here. */
-	#orderform{
-		padding:.5rem;
-		margin:0rem 22rem;
-	}
-	#orderform label{
-		margin-top: 2rem;
-	}
-	#spices{
+	img.frig{
 		width: 30%;
 		height: 30%;
 	}
-	#frig{
-		width: 50%;
-		height: 50%;
+	#jobs{
+		margin:0 11rem;
 	}
 	#about{
 		margin-top:6rem;
