@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body {
-    background-color: #1DD0A3;
+    background: linear-gradient(97deg, rgb(75, 193, 163), rgb(149, 170, 191));
 	font-family: 'Poppins', sans-serif;
     /* padding:.5rem */
 }
@@ -33,36 +33,41 @@ section{
     font-size: larger;
     font: bold;
 	color: rgb(37, 35, 35);
+	flex: auto;
 	
 }
 section.section{
-    background-color: #25997C;
+    background: linear-gradient(-106deg, rgb(185, 221, 212), rgb(195, 220, 245));
 	color: rgb(37, 35, 35);
 	font-family: 'Poppins', sans-serif;
+}
+section.section#upper{
+	background: linear-gradient(97deg, rgb(75, 193, 163), rgb(149, 170, 191));
 }
 footer.footer{
     margin-top:4rem;
 }
 #about{
-	margin: 1rem 3rem;
+	margin: 1rem 1rem;
     border: #1C352F;
 	border-style: solid;
 	border-radius: 15px 50px 30px;
 }
 #jobs{
-	margin: 1rem 3rem;
+	margin: 1rem 1rem;
     border: #1C352F;
 	border-style: solid;
 	border-radius: 10px 50px 30px;
 }
 img.frig{
-    width: 70%;
-    height: 70%;
+    width: 80%;
+    height: 80%;
     border: #1C352F;
 	border-style: solid;
 	border-radius: 10px 50px 30px;
 	align-content: center;
 	background-color: #1DD0A3;
+	margin-bottom: 5rem;
 }
 h1.title{
 	color:"#004E67";
@@ -90,7 +95,7 @@ footer p{
 		margin: 2rem 7rem;
 	}
 	#jobs{
-		margin: 2rem 7rem;
+		margin: 2rem 12rem;
 	}
 }
 
@@ -106,13 +111,13 @@ footer p{
 		margin-bottom: 5rem;
 	}
 	section#jobs.section{
-		margin:5rem 22rem;
+		margin:5rem 18rem;
 	}
 	footer.footer{
 		margin-top:5rem;
 	}
 	section#about.section{
-		margin:3rem 11rem;
+		margin:5rem 11rem;
 	}
 }
 
@@ -126,8 +131,8 @@ footer p{
 	have larger screens, developers are beginning to style websites
 	for those users. Add that css here. */
 	img.frig{
-		width: 20%;
-		height: 20%;
+		width: 50%;
+		height: 50%;
 		margin:3rem 11rem;
 	}
 
@@ -135,9 +140,9 @@ footer p{
 		margin-top:10rem;
 	}
 	section#jobs.section{
-		margin:3rem 45rem;
+		margin:5rem 22rem;
 	}
 	section#about.section{
-		margin:3rem 33rem;
+		margin:3rem 11rem;
 	}
 }
