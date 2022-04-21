@@ -34,7 +34,7 @@ section{
 	color: rgb(37, 35, 35);
 }
 section.section{
-	background: radial-gradient(rgb(167, 224, 210), rgb(168, 246, 227));
+	background-color: #0AF5BA;
 	color: rgb(37, 35, 35);
 	font-family: 'Poppins', sans-serif;
 }
@@ -45,13 +45,13 @@ footer.footer{
     margin-top:4rem;
 }
 #about{
-	margin: 1rem 1rem;
+	/* margin: 1rem 1rem; */
     border: #1C352F;
 	border-style: solid;
 	border-radius: 5px 50px 30px;
 }
 #jobs{
-	margin: 1rem 1rem;
+	/* margin: .25rem .25rem; */
     border: #1C352F;
 	border-style: solid;
 	border-radius: 5px 50px 30px;
