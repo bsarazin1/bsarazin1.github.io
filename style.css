@@ -109,13 +109,13 @@ footer p{
 		height: 30%;
 	}
 
-	#about{
-		margin-top:6rem;
-	}
 	footer.footer{
 		margin-top:10rem;
 	}
 	#jobs{
-		margin:6rem;
+		margin:0 11rem;
+	}
+	#about{
+		margin:0 11rem;
 	}
 }
