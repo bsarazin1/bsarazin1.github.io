@@ -33,7 +33,6 @@ section{
     font-size: larger;
     font: bold;
 	color: rgb(37, 35, 35);
-	flex: auto;
 	
 }
 section.section{
@@ -51,7 +50,7 @@ footer.footer{
 	margin: 1rem 1rem;
     border: #1C352F;
 	border-style: solid;
-	border-radius: 15px 50px 30px;
+	border-radius: 10px 50px 30px;
 }
 #jobs{
 	margin: 1rem 1rem;
@@ -131,8 +130,8 @@ footer p{
 	have larger screens, developers are beginning to style websites
 	for those users. Add that css here. */
 	img.frig{
-		width: 50%;
-		height: 50%;
+		width: 30%;
+		height: 30%;
 		margin:3rem 11rem;
 	}
 
@@ -140,9 +139,29 @@ footer p{
 		margin-top:10rem;
 	}
 	section#jobs.section{
-		margin:5rem 22rem;
+		margin:5rem 25rem;
+		
 	}
 	section#about.section{
+		margin:3rem 20rem;
+	}
+}
+
+@media (min-width: 1600px) {
+	img.frig{
+		width: 30%;
+		height: 30%;
 		margin:3rem 11rem;
+	}
+
+	footer.footer{
+		margin-top:10rem;
+	}
+	section#jobs.section{
+		margin:5rem 35rem;
+		
+	}
+	section#about.section{
+		margin:3rem 20rem;
 	}
 }
