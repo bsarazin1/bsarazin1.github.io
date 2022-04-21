@@ -6,7 +6,7 @@ body {
     /* padding:.5rem */
 }
 div.navbar-brand {
-    background-color: #25997C;
+    background-color: #212c2a;
 }
 #main_title{
 	background-color: #223E37;
@@ -15,16 +15,25 @@ div.navbar-brand {
     height:40%;
     width: 40%;
 }
-
+a.navbar-burger.is-fixed-top{
+	background-color: #0AF5BA;
+}
 a.navbar-item:hover{
 	background-color: aliceblue;
 	transition:.025s;
+}
+#navbarBasicExample{
+	background-color: #212c2a;
+}
+div a.navbar-item{
+	color: #0AF5BA;
 }
 section{
     text-align: center;
     font-size: larger;
     font: bold;
 	color: rgb(37, 35, 35);
+	
 }
 section.section{
     background-color: #25997C;
@@ -35,14 +44,25 @@ footer.footer{
     margin-top:4rem;
 }
 #about{
-	margin: 0rem 1rem;
+	margin: 1rem 3rem;
+    border: #1C352F;
+	border-style: solid;
+	border-radius: 15px 50px 30px;
 }
 #jobs{
-	margin:0rem 1rem;
+	margin: 1rem 3rem;
+    border: #1C352F;
+	border-style: solid;
+	border-radius: 10px 50px 30px;
 }
 img.frig{
     width: 70%;
     height: 70%;
+    border: #1C352F;
+	border-style: solid;
+	border-radius: 10px 50px 30px;
+	align-content: center;
+	background-color: #1DD0A3;
 }
 h1.title{
 	color:"#004E67";
@@ -81,17 +101,18 @@ footer p{
 	/* 4. Turn off responsive design mode on your desktop.  Add any css
 	here to make your page look good on your desktop. */
 	img.frig{
-		width: 40%;
-		height: 40%;
+		width: 50%;
+		height: 50%;
+		margin-bottom: 5rem;
 	}
-	#about{
-		margin: 2rem 11rem;
+	section#jobs.section{
+		margin:5rem 22rem;
 	}
 	footer.footer{
-		margin-top:10rem;
+		margin-top:5rem;
 	}
-	#jobs{
-		margin:2rem 11rem;
+	section#about.section{
+		margin:3rem 11rem;
 	}
 }
 
@@ -105,17 +126,18 @@ footer p{
 	have larger screens, developers are beginning to style websites
 	for those users. Add that css here. */
 	img.frig{
-		width: 30%;
-		height: 30%;
+		width: 20%;
+		height: 20%;
+		margin:3rem 11rem;
 	}
 
 	footer.footer{
 		margin-top:10rem;
 	}
-	#jobs{
-		margin:0 11rem;
+	section#jobs.section{
+		margin:3rem 45rem;
 	}
-	#about{
-		margin:0 11rem;
+	section#about.section{
+		margin:3rem 33rem;
 	}
 }
