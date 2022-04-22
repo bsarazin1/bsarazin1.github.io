@@ -47,22 +47,17 @@ footer.footer{
     margin-top:4rem;
 }
 #about{
-	/* margin: 1rem 1rem; */
     border: #1C352F;
-	border-style: solid;
 	border-radius: 5px 50px 30px;
 }
 #jobs{
-	/* margin: .25rem .25rem; */
     border: #1C352F;
-	border-style: solid;
 	border-radius: 5px 50px 30px;
 }
 img.frig{
     width: 80%;
     height: 80%;
     border: #1C352F;
-	border-style: solid;
 	border-radius: 30px;
 	align-content: center;
 	background-color: #1DD0A3;
